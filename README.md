@@ -1,14 +1,15 @@
 # 🌴 Aplikasi Deteksi Sawit dengan YOLO
 
 Aplikasi web berbasis **Streamlit** untuk deteksi kelapa sawit menggunakan model **YOLOv12s** yang telah dilatih.
+https://fp-pdst-1.streamlit.app/
 
-## 📋 Persyaratan
+## Persyaratan
 
 - Python 3.8 atau lebih tinggi
 - pip (Python package manager)
 - File model: `best_yolo_model.pt`
 
-## 🚀 Instalasi
+## Instalasi
 
 ### 1. Clone atau Download Project
 
@@ -48,7 +49,7 @@ d:\Final Project PDST\
 └── README.md
 ```
 
-## 🏃 Menjalankan Aplikasi
+## Menjalankan Aplikasi
 
 ```bash
 streamlit run app.py
@@ -56,31 +57,31 @@ streamlit run app.py
 
 Aplikasi akan terbuka di browser Anda di `http://localhost:8501`
 
-## 📖 Fitur Aplikasi
+## Fitur Aplikasi
 
-### 1. 📷 Deteksi Gambar
+### 1. Deteksi Gambar
 - Upload gambar (JPG, JPEG, PNG, BMP)
 - Deteksi objek sawit secara real-time
 - Tampilkan bounding boxes dan confidence scores
 - Download hasil deteksi
 
-### 2. 🎥 Deteksi Video
+### 2. Deteksi Video
 - Upload video (MP4, AVI, MOV, MKV)
 - Proses frame-by-frame dengan deteksi
 - Buat video output dengan annotasi
 - Download video hasil
 
-### 3. 📊 Info Model
+### 3. Info Model
 - Informasi detail tentang model
 - Daftar kelas yang dapat dideteksi
 - Spesifikasi file model
 
-### 4. 📖 Panduan Penggunaan
+### 4. Panduan Penggunaan
 - Tutorial lengkap penggunaan aplikasi
 - Tips dan trik untuk hasil terbaik
 - Penjelasan parameter deteksi
 
-## ⚙️ Konfigurasi
+## Konfigurasi
 
 Gunakan sidebar untuk menyesuaikan parameter:
 
@@ -90,7 +91,7 @@ Gunakan sidebar untuk menyesuaikan parameter:
   
 - **IOU Threshold** (0.0 - 1.0): Threshold untuk NMS (Non-Maximum Suppression)
 
-## 💡 Tips Penggunaan
+## Tips Penggunaan
 
 1. **Kualitas Gambar Terbaik**:
    - Gunakan gambar resolusi tinggi
@@ -107,7 +108,7 @@ Gunakan sidebar untuk menyesuaikan parameter:
    - Tentukan max frames untuk kontrol waktu proses
    - Hasil video akan di-download secara otomatis
 
-## 📦 File Structure
+## File Structure
 
 ```
 d:\Final Project PDST\
@@ -118,7 +119,7 @@ d:\Final Project PDST\
 └── Copy_of_data_sains_sawit_dataset_asli_update1 (1).ipynb  # Training notebook
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Error: "Model file not found"
 - Pastikan `best_yolo_model.pt` ada di direktori yang sama dengan `app.py`
@@ -135,7 +136,7 @@ d:\Final Project PDST\
 - Aplikasi akan otomatis menggunakan CPU jika GPU tidak tersedia
 - Untuk performa lebih baik, gunakan GPU (CUDA)
 
-## 📝 Model Details
+## Model Details
 
 - **Arsitektur**: YOLOv12s
 - **Framework**: PyTorch + Ultralytics
@@ -144,7 +145,7 @@ d:\Final Project PDST\
 - **Epoch**: 50
 - **Batch Size**: 16-32
 
-## 📊 Metrik Model
+## Metrik Model
 
 Model telah dilatih dan dievaluasi dengan metrik:
 - **mAP50**: Mean Average Precision at IoU=0.5
@@ -152,14 +153,8 @@ Model telah dilatih dan dievaluasi dengan metrik:
 - **Recall**: Jumlah objek yang berhasil dideteksi
 - **F1-Score**: Harmonic mean dari precision dan recall
 
-## 🤝 Support & Kontribusi
-
-Untuk pertanyaan atau issue, silakan buka issue di repository.
-
-## 📄 Lisensi
-
-Proyek ini dibuat untuk keperluan akademik/Final Project PDST.
+## Lisensi
+https://fp-pdst-1.streamlit.app/
+Proyek ini dibuat untuk keperluan akademik/Final Project PDST 2025.
 
 ---
-
-**Dibuat dengan ❤️ menggunakan Streamlit + YOLOv12s**
