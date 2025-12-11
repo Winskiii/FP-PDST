@@ -154,7 +154,6 @@ Model telah dilatih dan dievaluasi dengan metrik:
 - **F1-Score**: Harmonic mean dari precision dan recall
 
 ## Lisensi
-https://fp-pdst-1.streamlit.app/
 Proyek ini dibuat untuk keperluan akademik/Final Project PDST 2025.
 
 ---
